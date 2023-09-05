@@ -58,3 +58,5 @@ tidy_data %>%
   acast(word ~ sentiment, value.var = "n", fill = 0) %>%
   comparison.cloud(colors = c("red", "dark green"),
                    max.words = 100)
+
+
